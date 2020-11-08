@@ -9,9 +9,9 @@ setup(name='open-reid',
       url='https://github.com/Cysu/open-reid',
       license='MIT',
       install_requires=[
-          'numpy', 'scipy', 'torch', 'torchvision',
+          'numpy', 'scipy==1.2.1', 'torch==0.4.0', 'torchvision==0.2.2',
           'six', 'h5py', 'Pillow',
-          'scikit-learn', 'metric-learn'],
+          'scikit-learn==0.20.0', 'metric-learn==0.4.0'],
       extras_require={
           'docs': ['sphinx', 'sphinx_rtd_theme'],
       },
